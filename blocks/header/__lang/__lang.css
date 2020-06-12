@@ -1,0 +1,28 @@
+.header__lang {
+    list-style: none;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-right: 48px;
+    margin-top: 46px;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 768px){
+    .header__lang {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header__lang {
+        margin-top: 30px;
+        margin-right: 16px;
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

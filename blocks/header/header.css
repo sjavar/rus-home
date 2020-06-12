@@ -1,0 +1,10 @@
+@import url('./__logo/__logo.css');
+@import url('./__lang/__lang.css');
+@import url('./__lang/__lang_inactive.css');
+@import url('./__lang/__lang_active.css');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
