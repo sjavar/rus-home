@@ -3,8 +3,35 @@
 @import url('./__list/intro__list.css');
 
 .intro {
-    max-width: 690px;
     align-self: start;
-    margin-left: 148px;
     margin-top: 92px;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin: 0 16px 64px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        margin: 0 24p 88px;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .intro {
+        max-width: 690px;
+        margin: 0 48px 92px;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro{
+        margin-left: 148px;
+        margin-bottom: 92px;
+    }
 }

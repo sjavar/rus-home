@@ -9,21 +9,28 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px){
     .lead {
         margin: 48px 0 64px;
     }
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .lead {
         margin: 48px 0 88px;
     }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (max-width:1024px) {
     .lead {
         margin: 48px 48px 92px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .lead {
+        margin: 56px 148px 92px;
     }
 }
 
